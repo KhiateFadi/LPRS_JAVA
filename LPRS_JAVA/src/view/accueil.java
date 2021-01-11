@@ -44,7 +44,7 @@ public class accueil {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		System.out.println("test");
+		
 		frame = new JFrame();
 		frame.setBounds(100, 100, 552, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -58,7 +58,7 @@ public class accueil {
 		JButton btnNewButton_1 = new JButton("connexion");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("test");
+				
 				connexion window = new connexion();
 				window.run();
 			}
